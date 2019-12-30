@@ -1,0 +1,29 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+.App {
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  text-align: center;
+}
+
+.App {
+  /*background-color: #282c34;*/
+  min-height: 100vh;
+  display: block;
+  height: 100%;
+  width: 100%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  /*position: fixed;*/
+  margin: 0 auto;
+}
+
+.big-picture {
+  padding: 10px;
+}
+
+.About-Wrapper {
+  position: relative;
+}
