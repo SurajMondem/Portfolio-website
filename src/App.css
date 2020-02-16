@@ -4,7 +4,7 @@ html{
 }
 
 .App {
-  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  background-image: linear-gradient(to top, #30cfd0 0%, #324084 100%);
   text-align: center;
 }
 
@@ -15,7 +15,7 @@ html{
   height: 100%;
   width: 100%;
   font-size: calc(10px + 2vmin);
-  color: white;
+  /*color: white;*/
   /*position: fixed;*/
   margin: 0 auto;
 }
