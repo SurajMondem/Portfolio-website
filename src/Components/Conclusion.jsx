@@ -74,13 +74,13 @@ export default class Conclusion extends Component {
                             <p className="footer-company-about">
                             </p>
                             <div className="footer-icons">
-                                <a href="#"><FontAwesomeIcon icon={faFacebook} size={'2x'} /></a>
+                                <a href="https://www.facebook.com/surajmondem888" target="_blank"><FontAwesomeIcon icon={faFacebook} size={'2x'} /></a>
                                 <span>' '</span>
-                                <a href="#"><FontAwesomeIcon icon={faTwitter} size={'2x'} /></a>
+                                <a href="https://twitter.com/MondemSuraj" target="_blank"><FontAwesomeIcon icon={faTwitter} size={'2x'} /></a>
                                 <span>' '</span>
-                                <a href="#"><FontAwesomeIcon icon={faLinkedin} size={'2x'} /></a>
+                                <a href="https://www.linkedin.com/in/surajmondem" target="_blank"><FontAwesomeIcon icon={faLinkedin} size={'2x'} /></a>
                                 <span>' '</span>
-                                <a href="#"><FontAwesomeIcon icon={faGithub} size={'2x'} /></a>
+                                <a href="https://github.com/SurajMondem" target="_blank"><FontAwesomeIcon icon={faGithub} size={'2x'} /></a>
                             </div>
                         </div>
                     </div>

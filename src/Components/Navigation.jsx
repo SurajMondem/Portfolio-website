@@ -3,6 +3,9 @@ import './Navigation.css';
 
 export default class Navigation extends Component {
 
+    openResume(){
+        window.open('/Intern_Resume.pdf', '_blank');
+    };
 
     render() {
         return(
@@ -15,13 +18,13 @@ export default class Navigation extends Component {
                             <a href={"#aboutme"}>About Me</a>
                         </li>
                         <li>
-                            <a href={"http://localhost:3000"}>Resume</a>
+                            <a href={'/Intern_Resume.pdf'} target={'_blank'}>Resume</a>
                         </li>
                         <li>
                             <a href={"#portfolio"}>Projects</a>
                         </li>
                         <li>
-                            <a href={"http://localhost:3000"}>Photography</a>
+                            <a href={"#"}>Photography</a>
                         </li>
                         <li>
                             <a href={"#contact-me"}>Contact Me</a>
