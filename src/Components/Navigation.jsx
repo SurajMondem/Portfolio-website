@@ -18,7 +18,7 @@ export default class Navigation extends Component {
                             <a href={"#aboutme"}>About Me</a>
                         </li>
                         <li>
-                            <a href={'/Intern_Resume.pdf'} target={'_blank'}>Resume</a>
+                            <a href={this.openResume}>Resume</a>
                         </li>
                         <li>
                             <a href={"#portfolio"}>Projects</a>
