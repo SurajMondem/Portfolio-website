@@ -21,6 +21,9 @@ export default class Navigation extends Component {
                             <a href={this.openResume}>Resume</a>
                         </li>
                         <li>
+                            <a href={this.openResume}>Skills</a>
+                        </li>
+                        <li>
                             <a href={"#portfolio"}>Projects</a>
                         </li>
                         <li>
