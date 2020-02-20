@@ -10,7 +10,7 @@ export default class Aboutme extends Component {
             </div>
             <div className={"content-wrapper"}>
                 <div className={"profile-picture"}>
-                    <img src={"DSC_0244-5.jpg"} height={400} width={600} />
+                    <img src={"/Portfolio_pic.jpg"} className={'prof-picture'} height={400} width={600} />
                 </div>
                 <div className={"Description-container"}>
                     <p>

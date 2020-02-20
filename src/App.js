@@ -7,14 +7,12 @@ import Conclusion from "./Components/Conclusion";
 
 
 function App() {
-  const picturestyle = "width: 100%;"
-
 
   return (
     <div className="App">
             <Navigation/>
             <div className={"big-picture"}>
-                <img src='Components/DSC_0244-5.jpg' style={{picturestyle}} width={600} height={400}/>
+                <img src='/DSC_0244-5.jpg' className={'bigpicture'} />
             </div>
             <Projects/>
             <Aboutme/>

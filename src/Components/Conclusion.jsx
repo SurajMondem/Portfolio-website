@@ -1,10 +1,17 @@
 import React, {Component} from "react";
 import './Conclusion.css';
-import Picture from "./comingsoon.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import {faFacebook , faTwitter , faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
+
+const Picture = '/comingsoon.jpg';
+
 export default class Conclusion extends Component {
+
+    openResume() {
+        window.open('/Intern_Resume.pdf','_blank');
+    };
+
     render() {
         return(
             <footer>
@@ -15,7 +22,7 @@ export default class Conclusion extends Component {
                         </div>
                         <div className={"buttons"}>
                             <div id="container">
-                                <button className="learn-more" id={"Resume"}>
+                                <button className="learn-more" id={"Resume"} onClick={this.openResume}>
                                     <span className="circle" id={"first"}>
                                         <span className="icon arrow"></span>
                                     </span>
