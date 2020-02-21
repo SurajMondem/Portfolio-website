@@ -1,11 +1,9 @@
 import React, {Component} from "react";
 import './Navigation.css';
 
-export default class Navigation extends Component {
 
-    openResume(){
-        window.open('/Intern_Resume.pdf', '_blank');
-    };
+export default class Navigation extends Component {
+    Resumeurl = '/Intern_Resume.pdf';
 
     render() {
         return(
@@ -18,7 +16,7 @@ export default class Navigation extends Component {
                             <a href={"#aboutme"}>About Me</a>
                         </li>
                         <li>
-                            <a href={this.openResume}>Resume</a>
+                            <a href={this.Resumeurl} target={'_blank'}>Resume</a>
                         </li>
                         <li>
                             <a href={"#portfolio"}>Projects</a>
