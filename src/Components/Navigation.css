@@ -4,7 +4,9 @@
     background: #292c2f;
     top: 0;
     left: 0;
-    height: 56px;
+    height: 60px;
+    z-index: 50;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.7);
 }
 .toolbar_navigation{
     display: flex;
@@ -15,12 +17,16 @@
 
 .toolbar_logo {
     margin-left: 1rem;
+    text-decoration: none;
 }
 
 .toolbar_logo a {
     color: white;
     text-decoration: none;
-    font-size: 1.5rem;
+}
+
+.toolbar_logo a:hover {
+    text-decoration: none;
 }
 
 .spacer {
@@ -35,7 +41,8 @@
 }
 
 .toolbar_navigation_items li {
-    padding: 0 0.5rem;
+    font-size: 20px;
+    padding: 0 1rem;
 }
 
 .toolbar_navigation_items a {
@@ -45,6 +52,7 @@
 
 .toolbar_navigation_items a:hover, .toolbar_navigation_items a:active {
     color: red;
+    text-decoration: none;
 }
 
 @media (max-width: 768px) {

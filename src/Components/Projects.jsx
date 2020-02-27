@@ -25,24 +25,6 @@ export default class Projects extends Component{
             </div>
             <div className="header-bar waypoint animated slide-in-right" data-animation="slide-in-right" data-delay=".3s" style={{stylebar}}>
             </div>
-
-            <div className="filter-wrap waypoint animated fade-in" data-animation="fade-in">
-                <div className="flex row" style={{flexrow}}>
-                    <div className="filter active" data-filter="all">ALL</div>
-                    <div className="filter" data-filter=".node">PROJECT 1</div>
-                    <div className="filter" data-filter=".rails">PROJECT 2</div>
-                    <div className="filter" data-filter=".js">PROJECT 3</div>
-                </div>
-                {/*<div className="float-bar" style={{flexbar}}>*/}
-                {/*    <div className="flex row" >*/}
-                {/*        <div className="filter" data-filter="all">ALL</div>*/}
-                {/*        <div className="filter" data-filter=".node">PROJECT 1</div>*/}
-                {/*        <div className="filter" data-filter=".rails">PROJECT 2</div>*/}
-                {/*        <div className="filter" data-filter=".js">PROJECT 3</div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
-            </div>
-
             <div id="projects" className="container flex row wrap animated">
                 <div className="container-fluid grid">
                     <div className="card">

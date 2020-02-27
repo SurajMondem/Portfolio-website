@@ -6,6 +6,8 @@ import Projects from "./Components/Projects";
 import Conclusion from "./Components/Conclusion";
 import SideDrawer from "./Components/SideDrawer/SideDrawer";
 import Backdrop from "./Components/Backdrop/Backdrop";
+import Skills from "./Components/Skills/Skills";
+import Background from "./Big_picture.jpg"
 
 
 class App extends Component {
@@ -28,6 +30,10 @@ class App extends Component {
 
         let backdrop;
 
+        const sectionStyle = {
+            backgroundImage: "url(" + {Background} + ")"
+        }
+
         if(this.state.sideDrawerOpen) {
              backdrop = <Backdrop click={this.backdropClickHandler}/>
         }
@@ -37,10 +43,9 @@ class App extends Component {
                 <Navigation drawerClickHandler = {this.drawerToggleClickHandler} />
                 <SideDrawer show={this.state.sideDrawerOpen} />
                 {backdrop}
-                <main style={{marginTop: '64px'}}>
-                    <div className={"big-picture"}>
-                        <img src='DSC_0244-5.jpg' className={'bigpicture'}/>
-                    </div>
+                <main style={{marginTop: '62px'}}>
+                    <div style={sectionStyle} className={"big-picture"}></div>
+                    <Skills/>
                     <Projects/>
                     <Aboutme/>
                     <Conclusion/>
