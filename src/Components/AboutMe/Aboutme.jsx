@@ -7,6 +7,7 @@ export default class Aboutme extends Component {
         <div>
             <div className={"about-header"} id={"aboutme"}>
                 <h1 className={"title"}>About me</h1>
+                <hr className="section-header-dark" />
             </div>
             <div className={"content-wrapper"}>
                 <div className={"profile-picture"}>

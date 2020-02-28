@@ -156,7 +156,7 @@ const skills = props => (
                 </div>
             </div>
             <div className={"skill-group"}>
-                <div className={"skill-group-title"}>These</div>
+                <div className={"skill-group-title"}>What Does these mean ?</div>
                 <div className={"skill"}>
                     <div className={"skill-title"}>I'm the <b>master </b>
                         of the universe</div>

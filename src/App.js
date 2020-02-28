@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
 import './App.css';
-import Navigation from './Components/Navigation';
-import Aboutme from "./Components/Aboutme";
-import Projects from "./Components/Projects";
-import Conclusion from "./Components/Conclusion";
+import Navigation from './Components/Navigation/Navigation';
+import Aboutme from "./Components/AboutMe/Aboutme";
+import Projects from "./Components/Projects/Projects";
+import Conclusion from "./Components/Conclusion/Conclusion";
 import SideDrawer from "./Components/SideDrawer/SideDrawer";
 import Backdrop from "./Components/Backdrop/Backdrop";
 import Skills from "./Components/Skills/Skills";

@@ -1,6 +1,6 @@
 import React from "react";
 import './Navigation.css';
-import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
+import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 
 const Resumeurl = 'Intern_Resume.pdf';
 const toolbar = props => (

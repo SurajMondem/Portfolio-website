@@ -9,7 +9,7 @@ const Picture = '/comingsoon.jpg';
 export default class Conclusion extends Component {
 
     openResume() {
-        window.open('/Intern_Resume.pdf','_blank');
+        window.open('Intern_Resume.pdf','_blank');
     };
 
     render() {
