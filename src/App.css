@@ -4,7 +4,8 @@ html{
 }
 
 .App {
-  background-image: linear-gradient(to top, #30cfd0 0%, #324084 100%);
+  /*background-image: linear-gradient(to top, #30cfd0 0%, #324084 100%);*/
+  background-color: #273036;
   text-align: center;
 }
 
@@ -27,7 +28,8 @@ html{
 
 .big-picture {
   /* The image used */
-  background-image: url("Big_picture.jpg");
+  position: relative;
+  background-image: url("Zion-park.jpg");
   /* Set a specific height */
   height: 800px;
   width: 100%;
@@ -35,4 +37,10 @@ html{
   background-attachment: fixed;
   background-position: bottom;
   background-size: cover;
+}
+
+.big-picture .canvas {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }

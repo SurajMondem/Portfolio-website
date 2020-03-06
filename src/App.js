@@ -7,7 +7,7 @@ import Conclusion from "./Components/Conclusion/Conclusion";
 import SideDrawer from "./Components/SideDrawer/SideDrawer";
 import Backdrop from "./Components/Backdrop/Backdrop";
 import Skills from "./Components/Skills/Skills";
-import Background from "./Big_picture.jpg"
+import Background from "./Zion-park.jpg"
 
 
 class App extends Component {
@@ -44,7 +44,10 @@ class App extends Component {
                 <SideDrawer show={this.state.sideDrawerOpen} />
                 {backdrop}
                 <main style={{marginTop: '62px'}}>
-                    <div style={sectionStyle} className={"big-picture"}></div>
+                    <div style={sectionStyle} className={"big-picture"}>
+                        <svg className={"canvas"} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#273036" fill-opacity="1" d="M0,192L720,320L1440,160L1440,320L720,320L0,320Z"></path>
+                        </svg>
+                    </div>
                     <Skills/>
                     <Projects/>
                     <Aboutme/>

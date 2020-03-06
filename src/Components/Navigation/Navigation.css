@@ -21,11 +21,13 @@
 }
 
 .toolbar_logo a {
-    color: white;
+    color: #FF8A65;
     text-decoration: none;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .toolbar_logo a:hover {
+    color: white;
     text-decoration: none;
 }
 
@@ -46,12 +48,13 @@
 }
 
 .toolbar_navigation_items a {
-    color: white;
+    color: #FF8A65;
     text-decoration: none;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .toolbar_navigation_items a:hover, .toolbar_navigation_items a:active {
-    color: red;
+    color: white;
     text-decoration: none;
 }
 

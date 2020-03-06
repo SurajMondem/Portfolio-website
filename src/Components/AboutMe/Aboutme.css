@@ -9,33 +9,38 @@
 
 .title{
     font-size: 35px;
-    padding: 50px;
     margin-top: 0px;
     margin-left: 0px;
     margin-bottom: 0px;
     display: inline-block;
     text-align: left;
-    color: black;
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
+    color: #FF8A65;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 5);
 }
 
 .content-wrapper {
     display: inline-block;
     position: relative;
     padding: 10px;
+    margin: 50px;
+    border: 5px outset #FF8A65;
+    box-shadow: 0 11px 11px 0 rgba(0,0,0,0.7);
 }
 
 .profile-picture{
     display: inline-block;
+    position: relative;
     float: left;
     text-align: left;
     width: auto;
+    top: 50px;
 }
 
 .Description-container {
     display: inline-block;
     position: relative;
     width: 50%;
+    float: right;
 }
 
 .prof-picture {
@@ -43,8 +48,15 @@
     max-height: 560px;
     width: 100%;
     height: 100%;
-    background: #c4c4c4;
-    border-radius: 85px;
-    box-shadow: 0 11px 11px 0 rgba(0,0,0,0.7);
-    padding: 10px;
+
+    /*background: #c4c4c4;*/
+    /*border-radius: 85px;*/
+    /*box-shadow: 0 11px 11px 0 rgba(0,0,0,0.7);*/
+    /*padding: 10px;*/
+
+}
+
+.text-content {
+    color: #FF8A65;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 2);
 }

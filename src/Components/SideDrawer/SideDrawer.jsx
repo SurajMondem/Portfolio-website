@@ -1,7 +1,7 @@
 import React from 'react';
 import "./SideDrawer.css"
 
-const Resumeurl = "Intern_Resume.pdf";
+const Resumeurl = "Resume.pdf";
 const sideDrawer = props => {
     let drawerClasses = 'side-drawer';
     if(props.show){

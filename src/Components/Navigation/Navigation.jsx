@@ -2,7 +2,7 @@ import React from "react";
 import './Navigation.css';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
 
-const Resumeurl = 'Intern_Resume.pdf';
+const Resumeurl = 'Resume.pdf';
 const toolbar = props => (
     <header className={"toolbar"}>
         <nav className={"toolbar_navigation"}>

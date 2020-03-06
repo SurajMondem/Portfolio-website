@@ -73,7 +73,7 @@ button.learn-more .circle {
     margin: 0;
     width: 3rem;
     height: 3rem;
-    background: #282936;
+    background: #576574;
     border-radius: 1.625rem;
 }
 button.learn-more .circle .icon {
@@ -111,7 +111,7 @@ button.learn-more .button-text {
     bottom: 0;
     padding: 0.25rem 0;
     margin: 0 0 0 1.85rem;
-    color: #282936;
+    color: #FF8A65;
     font-weight: 700;
     line-height: 1.6;
     text-align: center;
@@ -152,7 +152,7 @@ button:hover .button-text {
     bottom: 0;
     position: static;
     background-color: #292c2f;
-    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 -5px 50px 0px rgba(0, 0, 0, 0.7);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
@@ -183,7 +183,7 @@ button:hover .button-text {
 
 .footer-center p {
     display: inline-block;
-    color: #ffffff;
+    color: #FF8A65;
     vertical-align: middle;
     margin: 0;
 }
@@ -299,7 +299,7 @@ p {
 }
 
 .footer-name{
-    color: white;
+    color: #FF8A65;
     font-family: Roboto, sans-serif;
 
 }

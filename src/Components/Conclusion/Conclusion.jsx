@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import {faFacebook , faTwitter , faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 
-const Picture = '/comingsoon.jpg';
+const Picture = 'comingsoon.jpg';
 
 export default class Conclusion extends Component {
 
     openResume() {
-        window.open('Intern_Resume.pdf','_blank');
+        window.open('Resume.pdf','_blank');
     };
 
     render() {
