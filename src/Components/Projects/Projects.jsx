@@ -10,7 +10,7 @@ export default class Projects extends Component{
                 <h1 className={'project-title'}>PROJECTS</h1>
                 <hr className="section-header-dark" />
             </div>
-            <div className={"section-container"}>
+            <div className={"section--container"}>
                 <div className={"flip-box-container"}>
                     <div className="flip-box">
                         <div className="flip-box-inner">

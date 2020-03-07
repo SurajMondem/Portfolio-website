@@ -21,28 +21,23 @@ export default class Conclusion extends Component {
                             <img className={"coming-soon"} src={Picture} width={1280} height={720}/>
                         </div>
                         <div className={"buttons"}>
-                            <div id="container">
-                                <button className="learn-more" id={"Resume"} onClick={this.openResume}>
-                                    <span className="circle" id={"first"}>
-                                        <span className="icon arrow"></span>
-                                    </span>
-                                    <span className="button-text">Resume</span>
+                            <div id="container-left">
+                                <button className="btn-1" id={"Resume"} onClick={this.openResume}>
+                                    <span className={"span"}>  Resume  </span>
                                 </button>
                             </div>
-                            <div id="container">
-                                <button className="learn-more" id={"Photography"}>
-                                    <span className="circle" id={"second"}>
-                                        <span className="icon arrow"></span>
-                                    </span>
-                                    <span className="button-text">Photography</span>
+                            <div id="container-right">
+                                <button className="btn-2" id={"Photography"}>
+                                    <span className={"span"}>Photography</span>
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div className={"footer-distributed"}>
-                        <div className="footer-left">
-                            <h2 className="footer-name">Suraj Mondem</h2>
-                            <p className="footer-links">
+                        <div className="footer-left" id={"item"}>
+                            <div className={"left-content"}>
+                                <h2 className="footer-name">Suraj Mondem</h2>
+                                <p className="footer-links">
                                 <a href="#">Home </a>
                                 ·
                                 <a href="#"> About Me </a>
@@ -52,42 +47,43 @@ export default class Conclusion extends Component {
                                 <a href="#"> Photography </a>
                                 ·
                                 <a href="#"> Contact </a>
-                            </p>
-                            <p className="footer-company-name" id={"contact-me"}>Suraj Mondem © 2020</p>
-                        </div>
-
-                        <div className="footer-center">
-                            <div>
-                                <div className={"tag"}>
-                                <FontAwesomeIcon icon={faMapMarkerAlt} size={"2px"}/>
-                                </div>
-                                <p><span>810 Gonzalez Drive</span> San Francisco, CA - 94132 </p>
-                            </div>
-                            <div>
-                                <div className={"tag"}>
-                                <FontAwesomeIcon icon={faPhoneAlt}/>
-                            </div>
-                                <p>+1 (415)797-8504</p>
-                            </div>
-                            <div>
-                                <div className={"tag"}>
-                                    <FontAwesomeIcon icon={faEnvelope}/>
-                                </div>
-                                <p><a href="mailto:surajmondem@gmail.com">surajmondem@gmail.com</a></p>
+                                </p>
+                                <p className="footer-company-name" id={"contact-me"}>Suraj Mondem © 2020</p>
                             </div>
                         </div>
-
-                        <div className="footer-right">
-                            <p className="footer-company-about">
-                            </p>
-                            <div className="footer-icons">
-                                <a href="https://www.facebook.com/surajmondem888" target="_blank"><FontAwesomeIcon icon={faFacebook} size={'2x'} /></a>
-                                <span>' '</span>
-                                <a href="https://twitter.com/MondemSuraj" target="_blank"><FontAwesomeIcon icon={faTwitter} size={'2x'} /></a>
-                                <span>' '</span>
-                                <a href="https://www.linkedin.com/in/surajmondem" target="_blank"><FontAwesomeIcon icon={faLinkedin} size={'2x'} /></a>
-                                <span>' '</span>
-                                <a href="https://github.com/SurajMondem" target="_blank"><FontAwesomeIcon icon={faGithub} size={'2x'} /></a>
+                        <div className="footer-center" id={"item"} >
+                            <div className={"center-content"}>
+                                <div className={"tag-block"}>
+                                    <div className={"tag"}>
+                                        <FontAwesomeIcon icon={faMapMarkerAlt} size={"2px"}/>
+                                    </div>
+                                        <p> San Francisco, CA - 94132 </p>
+                                </div>
+                                <div className={"tag-block"}>
+                                    <div className={"tag"}>
+                                        <FontAwesomeIcon icon={faPhoneAlt}/>
+                                    </div>
+                                    <p>+1 (415)797-8504</p>
+                                </div>
+                                <div className={"tag-block"}>
+                                    <div className={"tag"}>
+                                        <FontAwesomeIcon icon={faEnvelope}/>
+                                    </div>
+                                    <p><a href="mailto:surajmondem@gmail.com">surajmondem@gmail.com</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="footer-right" id={"item"}>
+                            <div className={"right-content"}>
+                                <div className="footer-icons">
+                                    <a href="https://www.facebook.com/surajmondem888" target="_blank"><FontAwesomeIcon icon={faFacebook} size={'2x'} /></a>
+                                    <span>' '</span>
+                                    <a href="https://twitter.com/MondemSuraj" target="_blank"><FontAwesomeIcon icon={faTwitter} size={'2x'} /></a>
+                                    <span>' '</span>
+                                    <a href="https://www.linkedin.com/in/surajmondem" target="_blank"><FontAwesomeIcon icon={faLinkedin} size={'2x'} /></a>
+                                    <span>' '</span>
+                                    <a href="https://github.com/SurajMondem" target="_blank"><FontAwesomeIcon icon={faGithub} size={'2x'} /></a>
+                                </div>
                             </div>
                         </div>
                     </div>

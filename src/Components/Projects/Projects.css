@@ -5,27 +5,12 @@
     font-weight: 500;
 }
 
-.section-container{
-    display: block;
-    width: 100%;
-    padding: 50px;
-    box-sizing: border-box;
-}
 
 .flip-box-container{
     width: 100%;
     display: inline-block;
     padding: 15px;
     text-align: center;
-}
-
-.flip-box {
-    display: inline-block;
-    width: 350px;
-    box-sizing: border-box;
-    vertical-align: top;
-    text-align: left;
-    margin: 5px;
 }
 
 .flip-box-inner {
@@ -54,11 +39,12 @@
 }
 
 .flip-box-front {
-    background-color: whitesmoke;
+    background-color: ivory;
     color: black;
 }
 
 .flip-box-back {
+    display: inline-block;
     background-color: #292c2f;
     color: white;
     transform: rotateY(180deg);
@@ -84,14 +70,64 @@
     max-height: 100%;
 }
 
-.box-description {
-    padding: 10px;
-    text-align: justify;
-    font-size: 15px;
+
+@media (min-width: 450px) {
+    .section--container{
+        display: block;
+        width: 100%;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+
+    .flip-box {
+        display: inline-block;
+        width: 350px;
+        box-sizing: border-box;
+        vertical-align: top;
+        text-align: left;
+        margin: 5px;
+    }
+
+    .box-description {
+        padding: 10px;
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .project-tools {
+        padding: 10px;
+        text-align: justify;
+        font-size: 19px;
+    }
 }
 
-.project-tools {
-    padding: 10px;
-    text-align: justify;
-    font-size: 19px;
+@media (max-width: 450px) {
+    .section--container{
+        display: block;
+        width: 100%;
+        padding: 50px 5px;
+        box-sizing: border-box;
+    }
+
+    .flip-box {
+        display: inline-block;
+        width: 300px;
+        box-sizing: border-box;
+        vertical-align: top;
+        text-align: left;
+        margin: 5px;
+    }
+
+    .box-description {
+        padding: 10px;
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .project-tools {
+        padding: 10px;
+        text-align: justify;
+        font-size: 14px;
+    }
 }
+

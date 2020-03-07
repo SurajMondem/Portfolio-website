@@ -22,7 +22,11 @@
 }
 
 .buttons {
-    padding: 50px;
+    padding: 50px 25px;
+    display: block;
+    flex-wrap: nowrap;
+    position: relative;
+    height: 200px;
 }
 
 .resume , .photography {
@@ -32,118 +36,161 @@
 
 
 /*BUTTON CSS BELOW*/
+@media (min-width: 500px) {
+    #container-left {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        padding: 25px 50px;
+    }
 
-* {
-    box-sizing: border-box;
+    #container-right {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        padding: 25px 50px;
+    }
 }
-*::before, *::after {
-    box-sizing: border-box;
+
+@media (max-width: 500px) {
+    #container-left {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    #container-right {
+        position: relative;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        padding: 10px 0px;
+    }
 }
-.container {
-    font-family: 'ROBOTO', sans-serif;
-    font-size: 1rem;
-    line-height: 1.5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    min-height: 100vh;
-}
-button {
-    position: relative;
+
+button{
     display: inline-block;
-    cursor: pointer;
-    outline: none;
-    border: 0;
-    vertical-align: middle;
-    text-decoration: none;
-    background: transparent;
-    padding: 0;
-    font-size: inherit;
-    font-family: inherit;
-}
-button.learn-more {
-    width: 12rem;
-    height: auto;
-}
-button.learn-more .circle {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
     position: relative;
-    display: block;
-    margin: 0;
-    width: 3rem;
-    height: 3rem;
-    background: #576574;
-    border-radius: 1.625rem;
-}
-button.learn-more .circle .icon {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    background: #fff;
-}
-button.learn-more .circle .icon.arrow {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    left: 0.625rem;
-    width: 1.125rem;
-    height: 0.125rem;
     background: none;
-}
-button.learn-more .circle .icon.arrow::before {
-    position: absolute;
-    content: '';
-    top: -0.25rem;
-    right: 0.0625rem;
-    width: 0.625rem;
-    height: 0.625rem;
-    border-top: 0.125rem solid #fff;
-    border-right: 0.125rem solid #fff;
-    transform: rotate(45deg);
-}
-button.learn-more .button-text {
-    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 0.25rem 0;
-    margin: 0 0 0 1.85rem;
+    border: none;
     color: #FF8A65;
-    font-weight: 700;
-    line-height: 1.6;
-    text-align: center;
-    text-transform: uppercase;
-}
-button:hover #second {
-    width: 140%;
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 5);
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 30px;
+    background: rgba(0,0,0,0.09);
+    box-shadow: 5px 5px 11px 0px rgba(0,0,0,0.7);
 }
 
-button:hover #first {
+.span {
+    display: block;
+    padding: 25px 50px;
+}
+
+button::before, button::after {
+    content:"";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #FF8A65;
+}
+
+.span::before, .span::after{
+    content:"";
+    width:3px;
+    height:0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #FF8A65;
+}
+
+button:hover::before, button:hover::after{
     width: 100%;
 }
-button:hover .circle .icon.arrow {
-    background: #fff;
-    transform: translate(1rem, 0);
+button:hover span::before, button:hover span::after{
+    height: 100%;
 }
-button:hover .button-text {
-    color: #fff;
+
+
+/*----- button 1 -----*/
+.btn-1::before, .btn-1::after{
+    transition-delay: 0.2s;
 }
+.btn-1 span::before, .btn-1 span::after{
+    transition-delay: 0s;
+}
+.btn-1::before{
+    right: 0;
+    top: 0;
+}
+.btn-1::after{
+    left: 0;
+    bottom: 0;
+
+}
+.btn-1 span::before{
+    left: 0;
+    top: 0;
+}
+.btn-1 span::after{
+    right: 0;
+    bottom: 0;
+
+}
+.btn-1:hover::before, .btn-1:hover::after{
+    transition-delay: 0s;
+}
+.btn-1:hover span::before, .btn-1:hover span::after{
+    transition-delay: 0.2s;
+}
+
+.btn-2::before, .btn-2::after{
+    transition-delay: 0s;
+}
+.btn-2 span::before, .btn-2 span::after{
+    transition-delay: 0.2s;
+}
+.btn-2::before{
+    right: 0;
+    top: 0;
+}
+.btn-2::after{
+    left: 0;
+    bottom: 0;
+}
+.btn-2 span::before{
+    left: 0;
+    top: 0;
+}
+.btn-2 span::after{
+    right: 0;
+    bottom: 0;
+}
+.btn-2:hover::before, .btn-2:hover::after{
+    transition-delay: 0.2s;
+}
+.btn-2:hover span::before, .btn-2:hover span::after{
+    transition-delay: 0s;
+}
+
 
 #Resume {
     float: left;
-    margin-left: 100px;
+    /*margin-left: 42.5vw;*/
 }
 
 #Photography {
-    float: right;
-    margin-right: 100px;
+    float: left;
+    /*margin-left: 42.5vw;*/
 }
 
 #Photography .button-text {
-    margin-left: 60px;
+    margin-left: 55px;
 }
 
 /*FOOTER CSS*/
@@ -152,6 +199,7 @@ button:hover .button-text {
     bottom: 0;
     position: static;
     background-color: #292c2f;
+    display: inline-block;
     box-shadow: 0 -5px 50px 0px rgba(0, 0, 0, 0.7);
     box-sizing: border-box;
     width: 100%;
@@ -161,24 +209,12 @@ button:hover .button-text {
     margin-top: 80px;
 }
 
-.footer-left {
-    text-align: left;
-    font: bold 16px sans-serif;
-    padding: 0;
-    margin: 0;
+.left-content {
     display: inline-block;
-    vertical-align: top;
-    width: 40%;
 }
 
-.footer-center {
-    text-align: left;
-    font: bold 16px sans-serif;
-    padding: 0;
-    margin: 0;
+.center-content {
     display: inline-block;
-    vertical-align: top;
-    width: 35%;
 }
 
 .footer-center p {
@@ -189,7 +225,7 @@ button:hover .button-text {
 }
 
 .footer-center p span {
-    display: block;
+    display: inline-block;
     font-weight: normal;
     font-size: 14px;
     line-height: 2;
@@ -220,14 +256,8 @@ p {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.footer-right {
-    text-align: left;
-    font: bold 16px sans-serif;
-    padding: 0;
-    margin: 0;
+.right-content {
     display: inline-block;
-    vertical-align: top;
-    width: 20%;
 }
 
 .footer-links {
@@ -293,6 +323,7 @@ p {
 .footer-icons {
     text-align: left;
     font: bold 16px sans-serif;
+    display: inline-flex;
     padding: 0;
     margin: 0;
     margin-top: 25px;
@@ -301,5 +332,68 @@ p {
 .footer-name{
     color: #FF8A65;
     font-family: Roboto, sans-serif;
+}
 
+@media (max-width: 769px) {
+    .footer-right {
+        text-align: left;
+        font: bold 16px sans-serif;
+        padding: 0;
+        margin: 0;
+        display: block;
+        vertical-align: top;
+        width: 100%;
+    }
+
+    .footer-left {
+        text-align: left;
+        font: bold 16px sans-serif;
+        padding: 0;
+        margin: 0;
+        display: block;
+        vertical-align: top;
+        width: 100%;
+    }
+
+    .footer-center {
+        text-align: left;
+        font: bold 16px sans-serif;
+        padding: 0;
+        margin: 0;
+        display: block;
+        vertical-align: top;
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) {
+    .footer-right {
+        text-align: left;
+        font: bold 16px sans-serif;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        vertical-align: top;
+        width: 20%;
+    }
+
+    .footer-left {
+        text-align: left;
+        font: bold 16px sans-serif;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        vertical-align: top;
+        width: 40%;
+    }
+
+    .footer-center {
+        text-align: left;
+        font: bold 16px sans-serif;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        vertical-align: top;
+        width: 30%;
+    }
 }
