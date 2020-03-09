@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio-website/static/css/main.9cf5092f.chunk.css",
-    "main.js": "/Portfolio-website/static/js/main.99144a7f.chunk.js",
-    "main.js.map": "/Portfolio-website/static/js/main.99144a7f.chunk.js.map",
+    "main.css": "/Portfolio-website/static/css/main.1ecb3f8f.chunk.css",
+    "main.js": "/Portfolio-website/static/js/main.81518135.chunk.js",
+    "main.js.map": "/Portfolio-website/static/js/main.81518135.chunk.js.map",
     "runtime-main.js": "/Portfolio-website/static/js/runtime-main.158149e5.js",
     "runtime-main.js.map": "/Portfolio-website/static/js/runtime-main.158149e5.js.map",
     "static/css/2.64a99b10.chunk.css": "/Portfolio-website/static/css/2.64a99b10.chunk.css",
-    "static/js/2.85db7557.chunk.js": "/Portfolio-website/static/js/2.85db7557.chunk.js",
-    "static/js/2.85db7557.chunk.js.map": "/Portfolio-website/static/js/2.85db7557.chunk.js.map",
+    "static/js/2.8e27283b.chunk.js": "/Portfolio-website/static/js/2.8e27283b.chunk.js",
+    "static/js/2.8e27283b.chunk.js.map": "/Portfolio-website/static/js/2.8e27283b.chunk.js.map",
     "index.html": "/Portfolio-website/index.html",
-    "precache-manifest.bc1528711b28ca7cb770ce2893537ada.js": "/Portfolio-website/precache-manifest.bc1528711b28ca7cb770ce2893537ada.js",
+    "precache-manifest.0e99de8fb1f70bbcde38fc98f42b97fb.js": "/Portfolio-website/precache-manifest.0e99de8fb1f70bbcde38fc98f42b97fb.js",
     "service-worker.js": "/Portfolio-website/service-worker.js",
     "static/css/2.64a99b10.chunk.css.map": "/Portfolio-website/static/css/2.64a99b10.chunk.css.map",
-    "static/css/main.9cf5092f.chunk.css.map": "/Portfolio-website/static/css/main.9cf5092f.chunk.css.map",
-    "static/js/2.85db7557.chunk.js.LICENSE": "/Portfolio-website/static/js/2.85db7557.chunk.js.LICENSE",
+    "static/css/main.1ecb3f8f.chunk.css.map": "/Portfolio-website/static/css/main.1ecb3f8f.chunk.css.map",
+    "static/js/2.8e27283b.chunk.js.LICENSE": "/Portfolio-website/static/js/2.8e27283b.chunk.js.LICENSE",
     "static/media/App.css": "/Portfolio-website/static/media/Zion-park.acbc5120.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.158149e5.js",
     "static/css/2.64a99b10.chunk.css",
-    "static/js/2.85db7557.chunk.js",
-    "static/css/main.9cf5092f.chunk.css",
-    "static/js/main.99144a7f.chunk.js"
+    "static/js/2.8e27283b.chunk.js",
+    "static/css/main.1ecb3f8f.chunk.css",
+    "static/js/main.81518135.chunk.js"
   ]
 }
