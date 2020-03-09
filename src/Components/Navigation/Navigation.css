@@ -23,7 +23,7 @@
 .toolbar_logo a {
     color: #FF8A65;
     text-decoration: none;
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .toolbar_logo a:hover {
@@ -50,7 +50,7 @@
 .toolbar_navigation_items a {
     color: #FF8A65;
     text-decoration: none;
-    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .toolbar_navigation_items a:hover, .toolbar_navigation_items a:active {

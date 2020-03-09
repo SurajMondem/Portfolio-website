@@ -1,7 +1,8 @@
 import React from "react";
 import "./Skills.css";
+import Collapsible from "./Collapsible";
 
-const skills = props => (
+const skills = () => (
     <div className={"section-container"}>
         <div className={"section-title"}>SKILLS</div>
         <hr className="section-header-dark" />
@@ -20,7 +21,7 @@ const skills = props => (
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
+                        <div className="skill-circle-o"></div>
                     </div>
                 </div>
                 <div className={"skill"}>
@@ -34,8 +35,8 @@ const skills = props => (
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
+                        <div className="skill-circle-o"></div>
+                        <div className="skill-circle-o"></div>
                     </div>
                 </div>
                 <div className={"skill"}>
@@ -48,9 +49,9 @@ const skills = props => (
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
+                        <div className="skill-circle-o"></div>
+                        <div className="skill-circle-o"></div>
+                        <div className="skill-circle-o"></div>
                     </div>
                 </div>
                 <div className={"skill"}>
@@ -64,8 +65,8 @@ const skills = props => (
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
+                        <div className="skill-circle-o"></div>
+                        <div className="skill-circle-o"></div>
                     </div>
                 </div>
             </div>
@@ -81,9 +82,9 @@ const skills = props => (
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
+                        <div className="skill-circle-o"></div>
+                        <div className="skill-circle-o"></div>
+                        <div className="skill-circle-o"></div>
                     </div>
                 </div>
                 <div className={"skill"}>
@@ -98,7 +99,7 @@ const skills = props => (
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
+                        <div className="skill-circle-o"></div>
                     </div>
                 </div>
                 <div className={"skill"}>
@@ -112,8 +113,8 @@ const skills = props => (
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
+                        <div className="skill-circle-o"></div>
+                        <div className="skill-circle-o"></div>
                     </div>
                 </div>
                 <div className={"skill"}>
@@ -125,10 +126,10 @@ const skills = props => (
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
+                        <div className="skill-circle-o"></div>
+                        <div className="skill-circle-o"></div>
+                        <div className="skill-circle-o"></div>
+                        <div className="skill-circle-o"></div>
                     </div>
                 </div>
             </div>
@@ -155,89 +156,9 @@ const skills = props => (
                     </div>
                 </div>
             </div>
-            <div className={"skill-group"}>
-                <div className={"skill-group-title"}>What Does these mean ?</div>
-                <div className={"skill"}>
-                    <div className={"skill-title"}>I'm the <b>master </b>
-                        of the universe</div>
-                    <div className={"skill-proficiency"}>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                    </div>
-                </div>
-                <div className={"skill"}>
-                    <div className={"skill-title"}><b>High</b>,
-                        I'm pretty good.</div>
-                    <div className={"skill-proficiency"}>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                    </div>
-                </div>
-                <div className={"skill"}>
-                    <div className={"skill-title"}><b>Medium</b>, I'm trying
-                        to improve.</div>
-                    <div className={"skill-proficiency"}>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                    </div>
-                </div>
-                <div className={"skill"}>
-                    <div className={"skill-title"}><b>Basic</b>, you can't
-                        always win...</div>
-                    <div className={"skill-proficiency"}>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                    </div>
-                </div>
-                <div className={"skill"}>
-                    <div className={"skill-title"}><b>Uh? </b>
-                        Next question?</div>
-                    <div className={"skill-proficiency"}>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                        <div className="skill-circle-o"></div>
-                    </div>
-                </div>
-            </div>
+        </div>
+        <div className={"skill-container scale"}>
+            <Collapsible></Collapsible>
         </div>
     </div>
 );

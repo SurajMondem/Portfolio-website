@@ -32,7 +32,7 @@ class App extends Component {
 
         const sectionStyle = {
             backgroundImage: "url(" + {Background} + ")"
-        }
+        };
 
         if(this.state.sideDrawerOpen) {
              backdrop = <Backdrop click={this.backdropClickHandler}/>

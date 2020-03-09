@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import "./Projects.css";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
 
 export default class Projects extends Component{
 
@@ -89,6 +91,11 @@ export default class Projects extends Component{
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className={"github-link"}>
+                <a className={"github"} href="https://github.com/SurajMondem" target="_blank">
+                    <FontAwesomeIcon className={"github-icon"} icon={faGithub} size={'2x'} />
+                </a>
             </div>
         </section>
         );
