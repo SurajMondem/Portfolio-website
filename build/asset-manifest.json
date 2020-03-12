@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio-website/static/css/main.2a329193.chunk.css",
+    "main.js": "/Portfolio-website/static/js/main.59b8ea2f.chunk.js",
+    "main.js.map": "/Portfolio-website/static/js/main.59b8ea2f.chunk.js.map",
+    "runtime-main.js": "/Portfolio-website/static/js/runtime-main.158149e5.js",
+    "runtime-main.js.map": "/Portfolio-website/static/js/runtime-main.158149e5.js.map",
+    "static/css/2.64a99b10.chunk.css": "/Portfolio-website/static/css/2.64a99b10.chunk.css",
+    "static/js/2.03e27fc1.chunk.js": "/Portfolio-website/static/js/2.03e27fc1.chunk.js",
+    "static/js/2.03e27fc1.chunk.js.map": "/Portfolio-website/static/js/2.03e27fc1.chunk.js.map",
+    "index.html": "/Portfolio-website/index.html",
+    "precache-manifest.0a86a92b78ca082a2f0f8bc6f7847440.js": "/Portfolio-website/precache-manifest.0a86a92b78ca082a2f0f8bc6f7847440.js",
+    "service-worker.js": "/Portfolio-website/service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/Portfolio-website/static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.2a329193.chunk.css.map": "/Portfolio-website/static/css/main.2a329193.chunk.css.map",
+    "static/js/2.03e27fc1.chunk.js.LICENSE": "/Portfolio-website/static/js/2.03e27fc1.chunk.js.LICENSE",
+    "static/media/Portfolio_pic.jpg": "/Portfolio-website/static/media/Portfolio_pic.a777aeb7.jpg",
+    "static/media/App.css": "/Portfolio-website/static/media/Zion-park.acbc5120.jpg",
+    "static/media/comingsoon.jpg": "/Portfolio-website/static/media/comingsoon.beed6adb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.158149e5.js",
+    "static/css/2.64a99b10.chunk.css",
+    "static/js/2.03e27fc1.chunk.js",
+    "static/css/main.2a329193.chunk.css",
+    "static/js/main.59b8ea2f.chunk.js"
+  ]
+}
