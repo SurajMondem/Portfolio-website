@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "surajmondem.com/static/css/main.6d187d6f.chunk.css",
-    "main.js": "surajmondem.com/static/js/main.d9c0ab19.chunk.js",
-    "main.js.map": "surajmondem.com/static/js/main.d9c0ab19.chunk.js.map",
-    "runtime-main.js": "surajmondem.com/static/js/runtime-main.dbb51fc7.js",
-    "runtime-main.js.map": "surajmondem.com/static/js/runtime-main.dbb51fc7.js.map",
-    "static/css/2.64a99b10.chunk.css": "surajmondem.com/static/css/2.64a99b10.chunk.css",
-    "static/js/2.8e27283b.chunk.js": "surajmondem.com/static/js/2.8e27283b.chunk.js",
-    "static/js/2.8e27283b.chunk.js.map": "surajmondem.com/static/js/2.8e27283b.chunk.js.map",
-    "index.html": "surajmondem.com/index.html",
-    "precache-manifest.2ca322c7f7dc960519520c50055826b3.js": "surajmondem.com/precache-manifest.2ca322c7f7dc960519520c50055826b3.js",
-    "service-worker.js": "surajmondem.com/service-worker.js",
-    "static/css/2.64a99b10.chunk.css.map": "surajmondem.com/static/css/2.64a99b10.chunk.css.map",
-    "static/css/main.6d187d6f.chunk.css.map": "surajmondem.com/static/css/main.6d187d6f.chunk.css.map",
-    "static/js/2.8e27283b.chunk.js.LICENSE": "surajmondem.com/static/js/2.8e27283b.chunk.js.LICENSE",
-    "static/media/App.css": "surajmondem.com/static/media/Zion-park.acbc5120.jpg"
+    "main.css": "/Portfolio-website/./static/css/main.bb087e3f.chunk.css",
+    "main.js": "/Portfolio-website/./static/js/main.939b403e.chunk.js",
+    "main.js.map": "/Portfolio-website/./static/js/main.939b403e.chunk.js.map",
+    "runtime-main.js": "/Portfolio-website/./static/js/runtime-main.647b56d1.js",
+    "runtime-main.js.map": "/Portfolio-website/./static/js/runtime-main.647b56d1.js.map",
+    "static/css/2.64a99b10.chunk.css": "/Portfolio-website/./static/css/2.64a99b10.chunk.css",
+    "static/js/2.03e27fc1.chunk.js": "/Portfolio-website/./static/js/2.03e27fc1.chunk.js",
+    "static/js/2.03e27fc1.chunk.js.map": "/Portfolio-website/./static/js/2.03e27fc1.chunk.js.map",
+    "index.html": "/Portfolio-website/./index.html",
+    "precache-manifest.9de7e67ac2514cd48d86b8b3bed528f2.js": "/Portfolio-website/./precache-manifest.9de7e67ac2514cd48d86b8b3bed528f2.js",
+    "service-worker.js": "/Portfolio-website/./service-worker.js",
+    "static/css/2.64a99b10.chunk.css.map": "/Portfolio-website/./static/css/2.64a99b10.chunk.css.map",
+    "static/css/main.bb087e3f.chunk.css.map": "/Portfolio-website/./static/css/main.bb087e3f.chunk.css.map",
+    "static/js/2.03e27fc1.chunk.js.LICENSE": "/Portfolio-website/./static/js/2.03e27fc1.chunk.js.LICENSE",
+    "static/media/Portfolio_pic.jpg": "/Portfolio-website/./static/media/Portfolio_pic.a777aeb7.jpg",
+    "static/media/App.css": "/Portfolio-website/./static/media/Zion-park.acbc5120.jpg",
+    "static/media/comingsoon.jpg": "/Portfolio-website/./static/media/comingsoon.beed6adb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.dbb51fc7.js",
+    "static/js/runtime-main.647b56d1.js",
     "static/css/2.64a99b10.chunk.css",
-    "static/js/2.8e27283b.chunk.js",
-    "static/css/main.6d187d6f.chunk.css",
-    "static/js/main.d9c0ab19.chunk.js"
+    "static/js/2.03e27fc1.chunk.js",
+    "static/css/main.bb087e3f.chunk.css",
+    "static/js/main.939b403e.chunk.js"
   ]
 }
