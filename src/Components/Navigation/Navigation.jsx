@@ -23,7 +23,7 @@ const toolbar = props => (
                         <a href={"#portfolio"}>Projects</a>
                     </li>
                     <li>
-                        <a href={""}>Photography</a>
+                        <a href={"/"}>Photography</a>
                     </li>
                     <li>
                         <a href={"#contact-me"}>Contact Me</a>

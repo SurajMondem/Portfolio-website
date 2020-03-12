@@ -17,7 +17,7 @@ export default class Conclusion extends Component {
                 <div className={"footer"}>
                     <div className={"some-more"}>
                         <div >
-                            <img className={"coming-soon"} src={Picture} width={1280} height={720}/>
+                            <img className={"coming-soon"} src={Picture} width={1280} height={720} alt={""}/>
                         </div>
                         <div className={"buttons"}>
                             <div id="container-left">
@@ -37,15 +37,15 @@ export default class Conclusion extends Component {
                             <div className={"left-content"}>
                                 <h2 className="footer-name">Suraj Mondem</h2>
                                 <p className="footer-links">
-                                <a href="#">Home </a>
+                                <a href="/">Home </a>
                                 ·
-                                <a href="#"> About Me </a>
+                                <a href="#aboutme"> About Me </a>
                                 ·
-                                <a href="#"> Projects </a>
+                                <a href="#portfolio"> Projects </a>
                                 ·
-                                <a href="#"> Photography </a>
+                                <a href="/"> Photography </a>
                                 ·
-                                <a href="#"> Contact </a>
+                                <a href="contact-me"> Contact </a>
                                 </p>
                                 <p className="footer-company-name" id={"contact-me"}>Suraj Mondem © 2020</p>
                             </div>
@@ -54,7 +54,7 @@ export default class Conclusion extends Component {
                             <div className={"center-content"}>
                                 <div className={"tag-block"}>
                                     <div className={"tag"}>
-                                        <FontAwesomeIcon icon={faMapMarkerAlt} size={"2px"}/>
+                                        <FontAwesomeIcon icon={faMapMarkerAlt} />
                                     </div>
                                         <p> San Francisco, CA - 94132 </p>
                                 </div>
