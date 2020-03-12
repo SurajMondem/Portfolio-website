@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import "./Projects.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import Comingsoon from '../../Assets/Images/comingsoon.jpg'
 
 export default class Projects extends Component{
 
@@ -21,7 +22,7 @@ export default class Projects extends Component{
                                     <h2 >Gator Trader</h2>
                                 </div>
                                 <div className={"project-img"}>
-                                    <img className={"image"} src={"comingsoon.jpg"} alt={""}/>
+                                    <img className={"image"} src={Comingsoon} alt={""}/>
                                 </div>
                             </div>
                             <div className="flip-box-back">
@@ -48,7 +49,7 @@ export default class Projects extends Component{
                                     <h2 >Gin Rummy</h2>
                                 </div>
                                 <div className={"project-img"}>
-                                    <img className={"image"} src={"comingsoon.jpg"} alt={""}/>
+                                    <img className={"image"} src={Comingsoon} alt={""}/>
                                 </div>
                             </div>
                             <div className="flip-box-back">
@@ -73,7 +74,7 @@ export default class Projects extends Component{
                                     <h2 >Web Server</h2>
                                 </div>
                                 <div className={"project-img"}>
-                                    <img className={"image"} src={"comingsoon.jpg"} alt={""}/>
+                                    <img className={"image"} src={Comingsoon} alt={""}/>
                                 </div>
                             </div>
                             <div className="flip-box-back">

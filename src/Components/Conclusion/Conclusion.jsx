@@ -3,12 +3,12 @@ import './Conclusion.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import {faFacebook , faTwitter , faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
-const Picture = 'comingsoon.jpg';
+import Picture from '../../Assets/Images/comingsoon.jpg'
 
 export default class Conclusion extends Component {
 
     openResume() {
-        window.open('Resume.pdf','_blank');
+        window.open('../../Assets/Resume/Resume.pdf','_blank');
     };
 
     render() {

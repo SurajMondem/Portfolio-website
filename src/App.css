@@ -29,7 +29,7 @@ html{
 .big-picture {
   /* The image used */
   position: relative;
-  background-image: url("Zion-park.jpg");
+  background-image: url("Assets/Images/Zion-park.jpg");
   /* Set a specific height */
   height: 800px;
   width: 100%;

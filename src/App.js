@@ -7,7 +7,7 @@ import Conclusion from "./Components/Conclusion/Conclusion";
 import SideDrawer from "./Components/SideDrawer/SideDrawer";
 import Backdrop from "./Components/Backdrop/Backdrop";
 import Skills from "./Components/Skills/Skills";
-import Background from "./Zion-park.jpg"
+import Background from "./Assets/Images/Zion-park.jpg"
 
 
 class App extends Component {
