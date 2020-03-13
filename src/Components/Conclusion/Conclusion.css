@@ -76,15 +76,16 @@
 button{
     display: inline-block;
     position: relative;
-    background: none;
     border: none;
     color: #FF8A65;
     text-shadow: 0 5px 5px rgba(0, 0, 0, 5);
     font-size: 18px;
     cursor: pointer;
     margin: 20px 30px;
-    background: rgba(0,0,0,0.09);
-    box-shadow: 5px 5px 11px 0 rgba(0,0,0,0.7);
+    border-radius: 25px;
+    background: linear-gradient(145deg, #2a333a, #232b31);
+    box-shadow:  6px 6px 12px #101316,
+    -6px -6px 12px #3e4d56;
 }
 
 .span {

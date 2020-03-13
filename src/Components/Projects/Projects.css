@@ -35,18 +35,19 @@
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.7);
+    box-shadow: 11px 11px 22px #14181b,
+    -11px -11px 22px #3b4851;
 }
 
 .flip-box-front {
-    background-color: ivory;
-    color: black;
+    background-color: #273036;
+    color: white;
 }
 
 .flip-box-back {
     display: inline-block;
-    background-color: #292c2f;
-    color: white;
+    background-color: white;
+    color: #273036;
     transform: rotateY(180deg);
 }
 
@@ -107,7 +108,7 @@
         box-sizing: border-box;
         vertical-align: top;
         text-align: left;
-        margin: 5px;
+        margin: 20px;
     }
 
     .box-description {

@@ -24,7 +24,8 @@
     padding: 10px;
     margin: 50px;
     border: 5px outset #FF8A65;
-    box-shadow: 0 11px 11px 0 rgba(0,0,0,0.7);
+    box-shadow:   27px 27px 54px #14181b,
+    -27px -27px 54px #3b4851;
 }
 
 @media (max-width: 768px) {
