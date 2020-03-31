@@ -1,28 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.6cf57b06.chunk.css",
-    "main.js": "/static/js/main.df117662.chunk.js",
-    "main.js.map": "/static/js/main.df117662.chunk.js.map",
+    "main.css": "/static/css/main.c56f4d44.chunk.css",
+    "main.js": "/static/js/main.b95bf075.chunk.js",
+    "main.js.map": "/static/js/main.b95bf075.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d6f94871.js",
     "runtime-main.js.map": "/static/js/runtime-main.d6f94871.js.map",
     "static/css/2.64a99b10.chunk.css": "/static/css/2.64a99b10.chunk.css",
-    "static/js/2.03e27fc1.chunk.js": "/static/js/2.03e27fc1.chunk.js",
-    "static/js/2.03e27fc1.chunk.js.map": "/static/js/2.03e27fc1.chunk.js.map",
+    "static/js/2.8082a646.chunk.js": "/static/js/2.8082a646.chunk.js",
+    "static/js/2.8082a646.chunk.js.map": "/static/js/2.8082a646.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.2966d066b29d3d30a8cbeff6aa16c212.js": "/precache-manifest.2966d066b29d3d30a8cbeff6aa16c212.js",
+    "precache-manifest.dd2d65350baff2bb8d8ee86f2082b11c.js": "/precache-manifest.dd2d65350baff2bb8d8ee86f2082b11c.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.64a99b10.chunk.css.map": "/static/css/2.64a99b10.chunk.css.map",
-    "static/css/main.6cf57b06.chunk.css.map": "/static/css/main.6cf57b06.chunk.css.map",
-    "static/js/2.03e27fc1.chunk.js.LICENSE": "/static/js/2.03e27fc1.chunk.js.LICENSE",
+    "static/css/main.c56f4d44.chunk.css.map": "/static/css/main.c56f4d44.chunk.css.map",
+    "static/js/2.8082a646.chunk.js.LICENSE": "/static/js/2.8082a646.chunk.js.LICENSE",
+    "static/media/Mern.jfif": "/static/media/Mern.52de9a09.jfif",
+    "static/media/Node2.png": "/static/media/Node2.38c3a911.png",
+    "static/media/NodeJs.png": "/static/media/NodeJs.36700bee.png",
+    "static/media/NodeSvg.png": "/static/media/NodeSvg.85458a67.png",
     "static/media/Portfolio_pic.jpg": "/static/media/Portfolio_pic.a777aeb7.jpg",
+    "static/media/React.png": "/static/media/React.7c0fdc49.png",
     "static/media/App.css": "/static/media/Zion-park.acbc5120.jpg",
-    "static/media/comingsoon.jpg": "/static/media/comingsoon.beed6adb.jpg"
+    "static/media/comingsoon.png": "/static/media/comingsoon.abcc087c.png",
+    "static/media/comingsoon.jpg": "/static/media/comingsoon.beed6adb.jpg",
+    "static/media/java-logo.png": "/static/media/java-logo.2d0ef7ea.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d6f94871.js",
     "static/css/2.64a99b10.chunk.css",
-    "static/js/2.03e27fc1.chunk.js",
-    "static/css/main.6cf57b06.chunk.css",
-    "static/js/main.df117662.chunk.js"
+    "static/js/2.8082a646.chunk.js",
+    "static/css/main.c56f4d44.chunk.css",
+    "static/js/main.b95bf075.chunk.js"
   ]
 }
