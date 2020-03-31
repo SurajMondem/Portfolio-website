@@ -2,7 +2,14 @@ import React, {Component} from "react";
 import "./Projects.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
-import Comingsoon from '../../Assets/Images/comingsoon.jpg'
+import Comingsoon from '../../Assets/Images/comingsoon.jpg';
+import Java from '../../Assets/Images/java-logo.png';
+import Node from '../../Assets/Images/Node2.png';
+import Mern from '../../Assets/Images/MernStack.png';
+import Mern2 from '../../Assets/Images/Mern.jfif';
+import NodeJs from '../../Assets/Images/NodeJs.png';
+import NodeSvg from '../../Assets/Images/NodeSvg.png';
+import Reactpic from '../../Assets/Images/React.png';
 
 export default class Projects extends Component{
 
@@ -15,6 +22,7 @@ export default class Projects extends Component{
             </div>
             <div className={"section--container"}>
                 <div className={"flip-box-container"}>
+                    {/*GATOR TRADER*/}
                     <div className="flip-box">
                         <div className="flip-box-inner">
                             <div className="flip-box-front">
@@ -22,7 +30,7 @@ export default class Projects extends Component{
                                     <h2 >Gator Trader</h2>
                                 </div>
                                 <div className={"project-img"}>
-                                    <img className={"image"} src={Comingsoon} alt={""}/>
+                                    <img className={"image"} src={Node} alt={""}/>
                                 </div>
                             </div>
                             <div className="flip-box-back">
@@ -42,14 +50,15 @@ export default class Projects extends Component{
                             </div>
                         </div>
                     </div>
+                    {/*GIN RUMMY*/}
                     <div className="flip-box">
                         <div className="flip-box-inner">
                             <div className="flip-box-front">
                                 <div className={"flip-box-title"}>
-                                    <h2 >Gin Rummy</h2>
+                                    <h2>Gin Rummy</h2>
                                 </div>
                                 <div className={"project-img"}>
-                                    <img className={"image"} src={Comingsoon} alt={""}/>
+                                    <img className={"image"} src={Node} alt={""}/>
                                 </div>
                             </div>
                             <div className="flip-box-back">
@@ -67,6 +76,7 @@ export default class Projects extends Component{
                             </div>
                         </div>
                     </div>
+                    {/*WEB SERVER*/}
                     <div className="flip-box">
                         <div className="flip-box-inner">
                             <div className="flip-box-front">
@@ -74,7 +84,7 @@ export default class Projects extends Component{
                                     <h2 >Web Server</h2>
                                 </div>
                                 <div className={"project-img"}>
-                                    <img className={"image"} src={Comingsoon} alt={""}/>
+                                    <img className={"image"} src={Java} alt={""}/>
                                 </div>
                             </div>
                             <div className="flip-box-back">
@@ -87,6 +97,82 @@ export default class Projects extends Component{
                                 </p>
                                 <h6 className={"project-tools"}>
                                     Tools Used: Java, Apache server, Postman.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    {/*CORONA APP*/}
+                    <div className="flip-box">
+                        <div className="flip-box-inner">
+                            <div className="flip-box-front">
+                                <div className={"flip-box-title"}>
+                                    <h2 >Corona Tracker</h2>
+                                </div>
+                                <div className={"project-img"}>
+                                    <img className={"image"} src={Reactpic} alt={""}/>
+                                </div>
+                            </div>
+                            <div className="flip-box-back">
+                                <h2 className={"flip-box-title"}>Description</h2>
+                                <p className={"box-description"}>
+                                    A self designed and developed Covid-19 cases tracking app. I created this app
+                                    to spread awareness and updates of Corona Virus around the world. the project
+                                    updates real-time data using public RESTful APIs. the design approach uses trendy
+                                    Neomorphistic UI with minimalistic color combinations.
+                                    <br/>
+                                    <b>Website:</b> <a style={{fontWeight: "bold"}} href={"https://coronainworld.com"} target={"_blank"}>Corona Tracker</a>
+                                </p>
+                                <h6 className={"project-tools"}>
+                                    Tools Used: JavaScript, React, HTML, CSS
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    {/*Frontend Youtube clone*/}
+                    <div className="flip-box">
+                        <div className="flip-box-inner">
+                            <div className="flip-box-front">
+                                <div className={"flip-box-title"}>
+                                    <h2 >Youtube Clone</h2>
+                                </div>
+                                <div className={"project-img"}>
+                                    <img className={"image"} src={Reactpic} alt={""}/>
+                                </div>
+                            </div>
+                            <div className="flip-box-back">
+                                <h2 className={"flip-box-title"}>Description</h2>
+                                <p className={"box-description"}>
+                                    Created a self developed Frontend Youtube clone using Reactjs, the
+                                    project fetches Video data from Public RESTful APIs. the project has been
+                                    made with proper integration of Video Functionalities and Responsive Design.
+                                </p>
+                                <h6 className={"project-tools"}>
+                                    Tools Used: JavaScript, HTML, CSS, React, MaterialUI.
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    {/*MarkYourVote*/}
+                    <div className="flip-box">
+                        <div className="flip-box-inner">
+                            <div className="flip-box-front">
+                                <div className={"flip-box-title"}>
+                                    <h2 >Mark Your Vote</h2>
+                                </div>
+                                <div className={"project-img"} style={{marginTop: "30px"}}>
+                                    <img className={"image"} src={Mern2} alt={""}/>
+                                </div>
+                            </div>
+                            <div className="flip-box-back">
+                                <h2 className={"flip-box-title"}>Description</h2>
+                                <p className={"box-description"}>
+                                    Mark Your Vote is a polling application where Users can vote on various questions
+                                    and create their own. this project is developed using proper Model-View-Controller
+                                    concept which provides the Graphical results in Real-time to Users. Used proper
+                                    state management of Data using React and Redux technologies.
+                                </p>
+                                <h6 className={"project-tools"}>
+                                    Tools Used: MongoDB, ExpressJs, React, Redux, NodeJs, ChartJs
                                 </h6>
                             </div>
                         </div>

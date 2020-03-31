@@ -55,7 +55,7 @@ const skills = () => (
                     </div>
                 </div>
                 <div className={"skill"}>
-                    <div className={"skill-title"}>React</div>
+                    <div className={"skill-title"}>React + Redux</div>
                     <div className={"skill-proficiency"}>
                         <div className="skill-circle"></div>
                         <div className="skill-circle"></div>

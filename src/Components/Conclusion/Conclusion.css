@@ -16,10 +16,10 @@
 .coming-soon {
     height: 100%;
     width: 100%;
-    background: #c4c4c4;
-    border-radius: 85px;
-    box-shadow: 0 11px 11px 0 rgba(0,0,0,0.7);
-    padding: 10px;
+    border: 5px outset #FF8A65;
+    border-radius: 50px;
+    box-shadow:   27px 27px 54px #14181b,
+    -27px -27px 54px #3b4851;
 }
 
 .buttons {
@@ -241,18 +241,20 @@ p {
 }
 
 .footer-center .tag {
-    background-color: #33383b;
-    color: #ffffff;
+    color: #FF8A65;
     font-size: 20px;
     width: 38px;
     height: 38px;
-    border-radius: 50%;
     text-align: center;
     line-height: 42px;
     margin: 10px 15px;
     vertical-align: middle;
     display: inline-block;
     text-rendering: auto;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #25282a, #2c2f32);
+    box-shadow:  6px 6px 20px #1d1f21,
+    -6px -6px 20px #35393d;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

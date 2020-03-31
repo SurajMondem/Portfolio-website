@@ -3,7 +3,7 @@ import './Conclusion.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import {faFacebook , faTwitter , faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
-import Picture from '../../Assets/Images/comingsoon.jpg'
+import Picture from '../../Assets/Images/comingsoon.png'
 
 export default class Conclusion extends Component {
 

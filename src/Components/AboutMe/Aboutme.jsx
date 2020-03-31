@@ -35,11 +35,16 @@ export default class Aboutme extends Component {
                         />
                     </p>
                     <p className={"text-content"}>
-                        Welcome to my portfolio website! I am Suraj, a 22-year-old Software Developer that loves to build interactive products with careful user research, design, planning, and strong engineering principles. I'm currently proficient as a Full-stack developer and pursuing my Undergraduate degree in Computer Science from San Francisco State University.
+                        Welcome to my portfolio website! I am Suraj, a 22-year-old Software Developer that loves to build interactive
+                        products with careful user research, design, planning, and strong engineering principles. I'm currently proficient
+                        as a Full-stack developer and pursuing my Undergraduate degree in Computer Science from San Francisco State University.
 
                         <br/><br/>
 
-                        I believe the universe is made up of stories that I just try to capture into my camera. I am also a self-taught photographer who enjoys traveling around to new places and take pictures. I specialize in landscape photography and love to edit pictures with the most eye-appealing color combinations using professional software like Photoshop and Lightroom. Photography for me is an art-form that gives me peace and a way to convey the stories to everyone.
+                        I believe the universe is made up of stories that I just try to capture into my camera. I am also a self-taught photographer
+                        who enjoys traveling around to new places and take pictures. I specialize in landscape photography and love to edit pictures
+                        with the most eye-appealing color combinations using professional software like Photoshop and Lightroom. Photography for me
+                        is an art-form that gives me peace and a way to convey the stories to everyone.
                     </p>
                 </div>
             </div>
