@@ -34,8 +34,8 @@ html{
   height: 800px;
   width: 100%;
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: bottom;
+  /*background-attachment: fixed;*/
+  background-position: top;
   background-size: cover;
 }
 
