@@ -8,7 +8,7 @@ import Picture from '../../Assets/Images/comingsoon.png'
 export default class Conclusion extends Component {
 
     openResume() {
-        window.open('./Resume.pdf','_blank');
+        window.open('./SurajMondem_Resume.pdf','_blank');
     };
 
     render() {
