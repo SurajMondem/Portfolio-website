@@ -1,6 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-html{
-  scroll-behavior: smooth;
+:root {
+  --red: #fe3e57;
+  --light-red: #e94d62;
+  --white: #fffffe;
+  --dim-white: #e1e1e1;
+  --primary-color:  #273036;
+  --secondary-color: #FF8A65;
+  --territory-color: #7ed6df;
+  --primary-text: rgb(230, 241, 255);
+  --territory-text: rgb(214, 217, 224);
+  --secondary-text: rgb(166, 172, 194);
+  --secondary-head: rgb(215, 224, 236);
+  --primary-background: #273036;
+  --card-background: rgb(35, 64, 107);
+  --secondary-background: rgb(13, 34, 68);
+  --secondary-button: #294572;
+  --dark-shadow: #051020;
+  --footer: #131d2c;
+
+  --montserrat: "Montserrat", sans-serif;
+  --open-sans: "Open Sans", sans-serif;
 }
 
 .App {
@@ -29,10 +53,12 @@ html{
 .big-picture {
   /* The image used */
   position: relative;
-  background-image: url("Assets/Images/Zion-park.jpg");
+  
+  /* background-image: url("Assets/Images/Zion-park.jpg"); */
   /* Set a specific height */
   height: 800px;
   width: 100%;
+
   /* Create the parallax scrolling effect */
   /*background-attachment: fixed;*/
   background-position: top;

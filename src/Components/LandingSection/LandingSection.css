@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #273036;
+}
+
+.landing-page {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.main {
+  margin-top: 36px;
+  min-height: 100vh;
+  padding-bottom: 80px;
+  padding-top: 120px;
+  width: 100%;
+  background-color: var(--primary-background);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.main-content h3 {
+  color: var(--secondary-color);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.main-content h1 {
+  color: var(--white);
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.main-content h1 span {
+  color: var(--secondary-color);
+}
+
+.main-content h2 {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+.btn-grp {
+  margin-top: 5.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.top-btn {
+  width: 180px;
+  height: 55px;
+  color: var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 6px 21px 6px rgba(0, 0, 0, 0.2);
+  user-select: none;
+  transition: 0.3s;
+  transition-property: box-shadow;
+}
+.top-btn p {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: var(--primary-color);
+  font-family: var(--montserrat);
+}
+
+.top-btn:hover {
+  box-shadow: 5px 6px 12px 4px rgba(0, 0, 0, 0.31);
+}
+
+.primary {
+  background-color: var(--territory-color);
+  margin-right: 40px;
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 1300px){
+    .top-btn {
+        width: 160px;
+        height: 50px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .landing-page {
+        margin-left: 8%;
+    }
+}
+@media only screen and (max-width: 970px){
+    .landing-page {
+        margin-left: 15%;
+    }
+
+    .main {
+        margin-top: 0;
+        justify-content: center;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .main-svg {
+        margin-bottom: 5vh;
+        height: 50%;
+        position: static;
+        right: 0;
+    }
+
+    .primary {
+        margin-right: 20px;
+    }
+
+    .btn-grp {
+        margin-top: 3rem;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    .main {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .main-content h3 {
+    font-size: 4.7vw;
+    margin-bottom: 15px;
+    }
+
+    .main-content h1 {
+        font-size: 10vw;
+    }
+
+    .main-content h2 {
+        font-size: 5.5vw;
+    }
+
+    .btn-grp {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 500px) and (min-height: 580px){
+    .main {
+        padding-top: 18vh;
+    }
+
+    .main-content {
+        padding-top: 3vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* SVG Animations & CSS */
+
+#react-logo, #background #Vector_3 {
+    animation: clockwiseRotate 5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#background #Vector_5 {
+    animation: antiClockwiseRotate 5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#man #Vector_151 {
+    animation: manArms 0.5s ease-in-out infinite alternate-reverse;
+    transform-origin: top;
+}
+
+#man #Vector_145 {
+    animation: manArms 1s ease-in-out infinite alternate;
+    transform-origin: top;
+}
+
+#man #Vector_156 {
+    animation: manBiceps 0.5s ease-in-out infinite alternate-reverse;
+}
+
+#java-logo #Vector_59, #java-logo #Vector_58 {
+    animation: java-swell 7s ease-in-out -1.25s infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#man #Vector_125, #Vector_143 {
+    animation: foot 1s ease-in-out infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+
+}
+
+#Vector_142 {
+    animation: leg 1s ease-in-out infinite alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+
+@keyframes clockwiseRotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes antiClockwiseRotate {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(-360deg);
+    }
+}
+
+@keyframes manArms {
+    from{
+        transform: rotateX(0deg);
+        
+    }
+    to {
+        transform: rotateX(7deg);
+        
+    }
+}
+
+@keyframes manBiceps {
+    from{
+        transform: rotateX(0deg);
+    }
+    to {
+        transform: rotateX(2deg);
+    }
+}
+
+@keyframes java-swell {
+    0%, 100% {
+    transform: translate3d(0,-5px,0);
+    }
+    50% {
+    transform: translate3d(0,5px,0);
+    }
+}
+
+@keyframes foot {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-6px);
+    }
+}
+
+@keyframes leg {
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(3deg);
+    }
+}
+

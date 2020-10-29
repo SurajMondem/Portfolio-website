@@ -1,3 +1,115 @@
+/* NEW CSS */
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 100px;
+    background-color: var(--primary-background);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    transition: 350ms;
+    transition-property: height;
+}
+
+.scroll {
+    height: 60px;
+    box-shadow: 0 1px 10px var(--dark-shadow);
+}
+
+.navbar-elements{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-items li {
+    font-size: 20px;
+    padding: 0 1rem;
+}
+
+.navbar-items a {
+    color: #FF8A65;
+    text-decoration: none;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-items a:hover, .navbar-items a:active {
+    color: var(--territory-color);
+    text-decoration: none;
+}
+
+.navbar-logo {
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.navbar-logo a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-logo a:hover {
+    color: var(--territory-color);
+    text-decoration: none;
+}
+
+.spacer {
+    flex: 1 ;
+}
+
+
+@media only screen and (max-width: 970px){
+    .nav-bar {
+        padding-left: 10%;
+        padding-right: 5%;
+        height: 80px;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .nav-bar {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-items {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OLD CSS */
+
 .toolbar {
     position: fixed;
     width: 100%;
@@ -15,48 +127,6 @@
     padding: 0 1rem;
 }
 
-.toolbar_logo {
-    margin-left: 1rem;
-    text-decoration: none;
-}
-
-.toolbar_logo a {
-    color: #FF8A65;
-    text-decoration: none;
-    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-}
-
-.toolbar_logo a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-.spacer {
-    flex: 1 ;
-}
-
-.toolbar_navigation_items ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-.toolbar_navigation_items li {
-    font-size: 20px;
-    padding: 0 1rem;
-}
-
-.toolbar_navigation_items a {
-    color: #FF8A65;
-    text-decoration: none;
-    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
-}
-
-.toolbar_navigation_items a:hover, .toolbar_navigation_items a:active {
-    color: white;
-    text-decoration: none;
-}
 
 @media (max-width: 768px) {
     .toolbar_navigation_items {
