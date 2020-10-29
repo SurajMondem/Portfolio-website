@@ -24,8 +24,8 @@ class LandingSection extends Component {
   }
 
   render(){
-    let widthSvg = this.state.width > 970 ? 600 : 480;
-    let heightSvg = this.state.width > 970 ? 400 : 320;
+    let widthSvg = this.state.width > 970 ? this.state.width > 1440 ? 840 : 720 : 480;
+    let heightSvg = this.state.width > 970 ? this.state.width > 1440 ? 560 : 480 : 320;
 
     return(
       <div className="landing-page">

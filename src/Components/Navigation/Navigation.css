@@ -70,6 +70,12 @@
     flex: 1 ;
 }
 
+@media only screen and (max-width: 1200px){
+    .nav-bar {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
 
 @media only screen and (max-width: 970px){
     .nav-bar {
@@ -78,12 +84,7 @@
         height: 80px;
     }
 }
-@media only screen and (max-width: 1200px){
-    .nav-bar {
-        padding-left: 8%;
-        padding-right: 8%;
-    }
-}
+
 
 @media (max-width: 768px) {
     .navbar-items {
