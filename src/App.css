@@ -12,6 +12,9 @@
   --primary-color:  #273036;
   --secondary-color: #FF8A65;
   --territory-color: #7ed6df;
+  --primary-color-shadow:  #27303650;
+  --secondary-color-shadow: #ff8965da;
+  --territory-color-shadow: #7ed6df50;
   --primary-text: rgb(230, 241, 255);
   --territory-text: rgb(214, 217, 224);
   --secondary-text: rgb(166, 172, 194);
