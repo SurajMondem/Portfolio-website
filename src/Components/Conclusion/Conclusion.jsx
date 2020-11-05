@@ -4,20 +4,51 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import {faFacebook , faTwitter , faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import Picture from '../../Assets/Images/comingsoon.png'
+import CircularProgress from "@material-ui/core/CircularProgress";
 
 export default class Conclusion extends Component {
+    constructor(){
+        super();
+
+        this.state = {
+            profile: null
+        };
+    }
+
+    async componentDidMount(){
+        const userid = "17841409055908611";
+        const fields = "id,media_type,media_url";
+        const access_token = "IGQVJVbVJDOXBiaE5JMkJLcUdqT05aRmFfekhVX0hqb2xIUHdxbXFqc01EVXNJZA2VWLVhBbDJvZAWxGcW5JR2ZAsS1lnbGtSb04yNzNZAT0YtNWE4cHRpN2pLMy1YaHpFMURXbGlxNkhB";
+        const url = `https://graph.instagram.com/${userid}/media?fields=${fields}&access_token=${access_token}`;
+
+        const response = await fetch(url);
+        let data = await response.json();
+        console.log(data.data);
+        this.setState({profile: data.data })
+    }
+
 
     openResume() {
         window.open('./SurajMondem_Resume.pdf','_blank');
     };
 
+    
+
     render() {
+        
+        let content = this.state.profile;
+        console.log(content);
+        if(content == null) return <CircularProgress color="secondary" />;
         return(
-            <footer>
+            <React.Fragment>
+            
                 <div className={"footer"}>
                     <div className={"some-more"}>
-                        <div >
-                            <img className={"coming-soon"} src={Picture} width={1280} height={720} alt={""}/>
+                        <div className={"Instagram-Profile"}>
+                            {content.map((i) => (
+                                <img className={"coming-soon"} src={i.media_url} style={{width: "200px", height: "200px"}} alt={""}/>
+                            ))}
+                            
                         </div>
                         <div className={"buttons"}>
                             <div id="container-left">
@@ -32,7 +63,10 @@ export default class Conclusion extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className={"footer-distributed"}>
+                </div>
+                <footer>
+                    <div className="footer">
+                        <div className={"footer-distributed"}>
                         <div className="footer-left" id={"item"}>
                             <div className={"left-content"}>
                                 <h2 className="footer-name">Suraj Mondem</h2>
@@ -86,8 +120,9 @@ export default class Conclusion extends Component {
                             </div>
                         </div>
                     </div>
-                </div>
-            </footer>
+                    </div>
+                </footer>
+            </React.Fragment>
         )
     }
 
