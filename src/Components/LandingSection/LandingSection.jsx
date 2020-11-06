@@ -23,6 +23,10 @@ class LandingSection extends Component {
     this.setState({ width: window.innerWidth, height: window.innerHeight });
   }
 
+  openResume() {
+        window.open('./SurajMondem_Resume.pdf','_blank');
+  };
+
   render(){
     let widthSvg = this.state.width > 970 ? this.state.width > 1440 ? 840 : 720 : 480;
     let heightSvg = this.state.width > 970 ? this.state.width > 1440 ? 560 : 480 : 320;
@@ -39,18 +43,18 @@ class LandingSection extends Component {
                     wrapper={"b"}
                     steps={[
                         'Full-Stack Developer ',
-                        1200,
-                        'Photographer ',
                         1000,
                         'Chess Player ',
-                        800,
+                        1000,
                         'Travel Enthusiast ',
-                        800,
+                        1000,
+                        'Photographer ',
+                        1000,
                     ]}
               />
           </p>
         <div class="btn-grp">
-            <div class="top-btn primary">
+            <div class="top-btn primary" onClick={this.openResume}>
                 <p>Get Resume</p>
             </div>
             <div class=" top-btn secondary">

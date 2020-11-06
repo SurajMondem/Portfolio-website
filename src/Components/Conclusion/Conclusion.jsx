@@ -35,18 +35,21 @@ export default class Conclusion extends Component {
     
 
     render() {
-        
         let content = this.state.profile;
         console.log(content);
         if(content == null) return <CircularProgress color="secondary" />;
+        content = content.slice(0,12);
         return(
             <React.Fragment>
-            
                 <div className={"footer"}>
                     <div className={"some-more"}>
-                        <div className={"Instagram-Profile"}>
-                            {content.map((i) => (
-                                <img className={"coming-soon"} src={i.media_url} style={{width: "200px", height: "200px"}} alt={""}/>
+                        <div className="picture-heading">
+                            <h1 className="title">INSTAGRAM</h1>
+                            <hr className="section-header-dark" />
+                        </div>
+                        <div className={"ig-profile"}>
+                            {content.map((data) => (
+                                <div className="images"><img className={"pictures"} src={data.media_url} alt={""}/></div>
                             ))}
                             
                         </div>
