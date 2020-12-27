@@ -35,17 +35,15 @@ class Navigation extends Component {
         });
     };
     
+
+
     render(){
+
+        const {visible} = this.state;
+
         return(
             <React.Fragment>
-                <nav className={
-                    classnames(
-                        "nav-bar", 
-                            {
-                                "scroll": !this.state.visible
-                            }
-                        )
-                }>
+                <nav className={`nav-bar ${!visible ? "scroll" : ""}`}>
                 <div className={"toolbar_toggle-button"}>
                     <DrawerToggleButton click={this.props.drawerClickHandler }/>
                 </div>

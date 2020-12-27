@@ -18,15 +18,6 @@ export default class Conclusion extends Component {
 
     } 
 
-    async refreshInstaApi(){
-        const access_token = process.env.REACT_APP_API_KEY;
-        const grant_type = "ig_refresh_token";
-        const refreshurl = `https://graph.instagram.com/refresh_access_token?grant_type=${grant_type}&access_token=${access_token}`;
-        const res = await fetch(refreshurl);
-        let result = await res.json();
-        this.setState({access_token: result.access_token})
-    }
-
     async fetchInstaFeed(){
         const access_token_before = process.env.REACT_APP_API_KEY;
         const grant_type = "ig_refresh_token";
