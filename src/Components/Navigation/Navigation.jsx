@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import classnames from "classnames";
 import './Navigation.css';
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton';
-import Backdrop from '../Backdrop/Backdrop'
 
 const Resumeurl = 'SurajMondem_Resume.pdf';
 
@@ -60,7 +59,7 @@ class Navigation extends Component {
                             <a href={"#aboutme"}>About Me</a>
                         </li>
                         <li>
-                            <a href={Resumeurl} target={'_blank'}>Resume</a>
+                            <a href={Resumeurl} target={'_blank'} rel="noopener noreferrer">Resume</a>
                         </li>
                         <li>
                             <a href={"#portfolio"}>Projects</a>

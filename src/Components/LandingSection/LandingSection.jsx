@@ -1,6 +1,5 @@
 import React from "react";
 import "./LandingSection.css";
-import  Typical from 'react-typical';
 import { Component } from "react";
 
 class LandingSection extends Component {
@@ -34,30 +33,13 @@ class LandingSection extends Component {
     return(
       <div className="landing-page">
         <main className="main">
-        <div class="main-content">
+        <div className="main-content">
           <h3 className={"text-header"}>Hi, I'm Suraj Mondem</h3>
-            <p className={"text-typing"}>
-              I'm a{' '}
-              <Typical
-                    loop={Infinity}
-                    wrapper={"b"}
-                    steps={[
-                        'Full-Stack Developer ',
-                        1000,
-                        'Chess Player ',
-                        1000,
-                        'Travel Enthusiast ',
-                        1000,
-                        'Photographer ',
-                        1000,
-                    ]}
-              />
-          </p>
-        <div class="btn-grp">
-            <div class="top-btn primary" onClick={this.openResume}>
+        <div className="btn-group">
+            <div className="top-btn primary" onClick={this.openResume}>
                 <p>Get Resume</p>
             </div>
-            <div class=" top-btn secondary">
+            <div className=" top-btn secondary">
                 <p>Contact Me</p>
             </div>
         </div>

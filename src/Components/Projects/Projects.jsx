@@ -2,13 +2,9 @@ import React, {Component} from "react";
 import "./Projects.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
-import Comingsoon from '../../Assets/Images/comingsoon.jpg';
 import Java from '../../Assets/Images/java-logo.png';
 import Node from '../../Assets/Images/Node2.png';
-import Mern from '../../Assets/Images/MernStack.png';
 import Mern2 from '../../Assets/Images/Mern.jfif';
-import NodeJs from '../../Assets/Images/NodeJs.png';
-import NodeSvg from '../../Assets/Images/NodeSvg.png';
 import Reactpic from '../../Assets/Images/React.png';
 
 export default class Projects extends Component{
@@ -120,7 +116,7 @@ export default class Projects extends Component{
                                     updates real-time data using public RESTful APIs. the design approach uses trendy
                                     Neomorphistic UI with minimalistic color combinations.
                                     <br/>
-                                    <b>Website:</b> <a style={{fontWeight: "bold"}} href={"https://coronainworld.com"} target={"_blank"}>Corona Tracker</a>
+                                    <b>Website:</b> <a style={{fontWeight: "bold"}} href={"https://coronainworld.com"} target={"_blank"} rel="noopener noreferrer">Corona Tracker</a>
                                 </p>
                                 <h6 className={"project-tools"}>
                                     Tools Used: JavaScript, React, HTML, CSS
@@ -180,7 +176,7 @@ export default class Projects extends Component{
                 </div>
             </div>
             <div className={"github-link"}>
-                <a className={"github"} href="https://github.com/SurajMondem" target="_blank">
+                <a className={"github"} href="https://github.com/SurajMondem" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon className={"github-icon"} icon={faGithub} size={'2x'} />
                 </a>
             </div>

@@ -60,7 +60,7 @@ body {
   right: -200px;
 }
 
-.btn-grp {
+.btn-group {
   margin-top: 5.5rem;
   display: flex;
   align-items: center;
@@ -83,7 +83,7 @@ body {
 .top-btn p {
   font-size: 1.15rem;
   font-weight: 600;
-  margin-bottom: 0px;
+  margin: auto;
   color: var(--primary-color);
   font-family: var(--montserrat);
 }

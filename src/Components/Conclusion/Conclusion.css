@@ -46,6 +46,7 @@
     width: auto;
     height: 330px;
     width: 330px;
+    margin: auto;
     object-fit: contain;
 }
 
@@ -62,6 +63,7 @@
         width: auto;
         height: 240px;
         width: 300px;
+        margin: auto;
         object-fit: contain;
     }
 }

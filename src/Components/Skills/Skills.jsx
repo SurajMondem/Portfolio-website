@@ -91,7 +91,7 @@ var data = {
 
 class Skills extends Component {
     render(){
-        console.log(data.skills["Programming Languages"]);
+        //console.log(data.skills["Programming Languages"]);
         let Planguages = data.skills["Programming Languages"];
         let Dlanguages = data.skills["Database Languages"];
         let tools = data.skills.Tools;
@@ -118,10 +118,10 @@ class Skills extends Component {
                                 </div>
                             </div>
                             <div className="cards-data">
-                                {Planguages.map((data) => (
-                                    <div className="cards">
+                                {Planguages.map((data, index) => (
+                                    <div className="cards" key = {index}>
                                         <div className="card-info">
-                                            <img src={data.ImagePath}></img>
+                                            <img src={data.ImagePath} alt=""></img>
                                             <div className="card-content">
                                                 <h4>
                                                     {data.name}
@@ -145,10 +145,10 @@ class Skills extends Component {
                                 </div>
                             </div>
                             <div className="cards-data">
-                                {frameworks.map((data) => (
-                                    <div className="cards">
+                                {frameworks.map((data, index) => (
+                                    <div className="cards" key={index}>
                                         <div className="card-info">
-                                            <img src={data.ImagePath}></img>
+                                            <img src={data.ImagePath} alt=""></img>
                                             <div className="card-content">
                                                 <h4>
                                                     {data.name}
@@ -172,10 +172,10 @@ class Skills extends Component {
                                 </div>
                             </div>
                             <div className="cards-data">
-                                {Dlanguages.map((data) => (
-                                    <div className="cards">
+                                {Dlanguages.map((data, index) => (
+                                    <div className="cards" key={index}>
                                         <div className="card-info">
-                                            <img src={data.ImagePath}></img>
+                                            <img src={data.ImagePath} alt=""></img>
                                             <div className="card-content">
                                                 <h4>
                                                     {data.name}
@@ -199,10 +199,10 @@ class Skills extends Component {
                                 </div>
                             </div>
                             <div className="cards-data">
-                                {tools.map((data) => (
-                                    <div className="cards">
+                                {tools.map((data, index) => (
+                                    <div className="cards" key={index}>
                                         <div className="card-info">
-                                            <img src={data.ImagePath}></img>
+                                            <img src={data.ImagePath} alt=""></img>
                                             <div className="card-content">
                                                 <h4>
                                                     {data.name}

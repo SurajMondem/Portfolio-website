@@ -3,41 +3,58 @@ import './Conclusion.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt, faEnvelope, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
 import {faFacebook , faTwitter , faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
-import Picture from '../../Assets/Images/comingsoon.png'
 import CircularProgress from "@material-ui/core/CircularProgress";
+require('dotenv').config();
+
 
 export default class Conclusion extends Component {
     constructor(){
         super();
 
         this.state = {
-            profile: null
+            profile: null,
+            access_token: null,
         };
+
+    } 
+
+    async refreshInstaApi(){
+        const access_token = process.env.REACT_APP_API_KEY;
+        const grant_type = "ig_refresh_token";
+        const refreshurl = `https://graph.instagram.com/refresh_access_token?grant_type=${grant_type}&access_token=${access_token}`;
+        const res = await fetch(refreshurl);
+        let result = await res.json();
+        this.setState({access_token: result.access_token})
     }
 
-    async componentDidMount(){
-        const userid = "17841409055908611";
+    async fetchInstaFeed(){
+        const access_token_before = process.env.REACT_APP_API_KEY;
+        const grant_type = "ig_refresh_token";
+        const refreshurl = `https://graph.instagram.com/refresh_access_token?grant_type=${grant_type}&access_token=${access_token_before}`;
+        const res = await fetch(refreshurl);
+        let result = await res.json();
+        this.setState({access_token: result.access_token})
+        const access_token = this.state.access_token != null ? this.state.access_token : process.env.REACT_APP_API_KEY;
+        const userid = process.env.REACT_APP_USER_ID;
         const fields = "id,media_type,media_url";
-        const access_token = "IGQVJVbVJDOXBiaE5JMkJLcUdqT05aRmFfekhVX0hqb2xIUHdxbXFqc01EVXNJZA2VWLVhBbDJvZAWxGcW5JR2ZAsS1lnbGtSb04yNzNZAT0YtNWE4cHRpN2pLMy1YaHpFMURXbGlxNkhB";
         const url = `https://graph.instagram.com/${userid}/media?fields=${fields}&access_token=${access_token}`;
-
         const response = await fetch(url);
         let data = await response.json();
-        console.log(data.data);
         this.setState({profile: data.data })
     }
 
+    componentDidMount(){
+        this.fetchInstaFeed();
+    };
 
     openResume() {
         window.open('./SurajMondem_Resume.pdf','_blank');
     };
 
-    
-
     render() {
         let content = this.state.profile;
-        console.log(content);
-        if(content == null) return <CircularProgress color="secondary" />;
+        //console.log(content);
+        while(content == null) return <CircularProgress color="secondary" />;
         content = content.slice(0,12);
         return(
             <React.Fragment>
@@ -48,8 +65,8 @@ export default class Conclusion extends Component {
                             <hr className="section-header-dark" />
                         </div>
                         <div className={"ig-profile"}>
-                            {content.map((data) => (
-                                <div className="images"><img className={"pictures"} src={data.media_url} alt={""}/></div>
+                            {content.map((data, index) => (
+                                <div className="images" key={index}><img className={"pictures"} src={data.media_url} alt={""}/></div>
                             ))}
                             
                         </div>
@@ -112,13 +129,13 @@ export default class Conclusion extends Component {
                         <div className="footer-right" id={"item"}>
                             <div className={"right-content"}>
                                 <div className="footer-icons">
-                                    <a href="https://www.facebook.com/surajmondem888" target="_blank"><FontAwesomeIcon icon={faFacebook} size={'2x'} /></a>
+                                    <a href="https://www.facebook.com/surajmondem888" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faFacebook} size={'2x'} /></a>
                                     <span>' '</span>
-                                    <a href="https://twitter.com/MondemSuraj" target="_blank"><FontAwesomeIcon icon={faTwitter} size={'2x'} /></a>
+                                    <a href="https://twitter.com/MondemSuraj" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faTwitter} size={'2x'} /></a>
                                     <span>' '</span>
-                                    <a href="https://www.linkedin.com/in/surajmondem" target="_blank"><FontAwesomeIcon icon={faLinkedin} size={'2x'} /></a>
+                                    <a href="https://www.linkedin.com/in/surajmondem" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} size={'2x'} /></a>
                                     <span>' '</span>
-                                    <a href="https://github.com/SurajMondem" target="_blank"><FontAwesomeIcon icon={faGithub} size={'2x'} /></a>
+                                    <a href="https://github.com/SurajMondem" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faGithub} size={'2x'} /></a>
                                 </div>
                             </div>
                         </div>
