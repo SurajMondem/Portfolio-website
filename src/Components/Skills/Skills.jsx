@@ -8,74 +8,78 @@ var data = {
             "Programming Languages" : [
                 {
                     "name": "Java",
-                    "ImagePath": "https://camo.githubusercontent.com/2371fc4408ce813db5e1b6e153e3bb4f211702a6/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f6a6176612f6a6176612d6f726967696e616c2d776f72646d61726b2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/Java.svg"
                 },
                 {
                     "name": "Python",
-                    "ImagePath": "https://camo.githubusercontent.com/188581baa4eb9016e00bf07260f1fe6f12222b0a/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f707974686f6e2f707974686f6e2d6f726967696e616c2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/Python.svg"
                 },
                 {
                     "name": "C",
-                    "ImagePath": "https://camo.githubusercontent.com/3e29f3845124e238ad9853de49c2b637140e8370/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f632f632d6f726967696e616c2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/C.svg"
                 },
                 {
                     "name": "C++",
-                    "ImagePath": "https://camo.githubusercontent.com/b523c27bbf0caeb3820f3612030b75503cfce9af/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f63706c7573706c75732f63706c7573706c75732d6f726967696e616c2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/CPP.svg"
                 },
                 {
                     "name": "JavaScript",
-                    "ImagePath": "https://camo.githubusercontent.com/14758df13e2b9c312a5b911d3bb8b7418f7a8c3c/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f6a6176617363726970742f6a6176617363726970742d6f726967696e616c2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/JS.svg"
                 }
             ],
             "Frameworks" : [
                 {
                     "name": "ReactJS",
-                    "ImagePath": "https://camo.githubusercontent.com/4683d18a4a9f845dd7de377a6915dcfc9739a661/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f72656163742f72656163742d6f726967696e616c2d776f72646d61726b2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/React.svg"
                 },
                 {
                     "name": "Bootstrap",
-                    "ImagePath": "https://camo.githubusercontent.com/036c55e67f83746d724458d93cac87cb031d7459/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f626f6f7473747261702f626f6f7473747261702d706c61696e2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/Bootstrap.svg"
                 },
                 {
                     "name": "ExpressJS",
-                    "ImagePath": "https://camo.githubusercontent.com/2227fc3556850d51046d47d57545db9623b9c615/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f657870726573732f657870726573732d6f726967696e616c2d776f72646d61726b2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/Express.svg"
                 },
                 {
                     "name": "JQuery",
                     "ImagePath": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/jquery/jquery.png"
+                },
+                {
+                    "name": "OpenCV",
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/OpenCV.svg"
                 }
             ],
             "Database Languages": [
                 {
                     "name": "MongoDB",
-                    "ImagePath": "https://camo.githubusercontent.com/eaac62a970d1d8e326a6137b99515071b698ee38/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f6d6f6e676f64622f6d6f6e676f64622d6f726967696e616c2d776f72646d61726b2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/MongoDB.svg"
                 },
                 {
                     "name": "MySQL",
-                    "ImagePath": "https://camo.githubusercontent.com/912b3c635b0c0c198c68114f038ecc28a17728e7/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f6d7973716c2f6d7973716c2d6f726967696e616c2d776f72646d61726b2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/Mysql.svg"
                 },
                 {
                     "name": "PostgreSQL",
-                    "ImagePath": "https://camo.githubusercontent.com/18b40ef4ee8221e5823e7402a224e1e72fc31971/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f706f737467726573716c2f706f737467726573716c2d6f726967696e616c2d776f72646d61726b2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/PostgresSql.svg"
                 }
             ],
             "Tools":
             [
                 {
                     "name": "Git",
-                    "ImagePath": "https://camo.githubusercontent.com/855436203f025325f663ef9b9c63a389dd9bbd98/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/Git.svg"
                 },
                 {
                     "name": "AWS",
-                    "ImagePath": "https://camo.githubusercontent.com/8a3b291f03f6a44f1231bc094833809eaf59fc68/68747470733a2f2f64657669636f6e732e6769746875622e696f2f64657669636f6e2f64657669636f6e2e6769742f69636f6e732f616d617a6f6e77656273657276696365732f616d617a6f6e77656273657276696365732d6f726967696e616c2d776f72646d61726b2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/AWS.svg"
                 },
                 {
                     "name": "GCP",
-                    "ImagePath": "https://camo.githubusercontent.com/cfdbcaa9abd0103840c2b3befdc02f8d8e842f75/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676f6f676c655f636c6f75642f676f6f676c655f636c6f75642d69636f6e2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/GCP.svg"
                 },
                 {
                     "name": "Figma",
-                    "ImagePath": "https://camo.githubusercontent.com/812b910fbdc5becadcae6c884ff1bb1712583914/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667"
+                    "ImagePath": "https://gist.githubusercontent.com/SurajMondem/1288fd40a9f30f54eac68d9aa41958a8/raw/a33e71cf94598760634efb862a36925c589b91a3/Figma.svg"
                 },
                 {
                     "name": "Photoshop",
